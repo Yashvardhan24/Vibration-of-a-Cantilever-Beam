@@ -71,17 +71,17 @@ The Arduino reads real-time acceleration data, which is processed via **FFT** to
 
 Mathematical relation for fundamental frequency:
 
-\[
+$$
 f_n = \frac{\beta_n^2}{2\pi L^2} \sqrt{\frac{EI}{\rho A}}
-\]
+$$
 
 where  
-- \( E \): Young’s Modulus  
-- \( I \): Moment of Inertia  
-- \( \rho \): Density  
-- \( A \): Cross-sectional Area  
-- \( L \): Beam Length  
-- For the first mode: \( \beta_1 L \approx 1.875 \)
+- $E$: Young’s Modulus  
+- $I$: Moment of Inertia  
+- $\rho$: Density  
+- $A$: Cross-sectional Area  
+- $L$: Beam Length  
+- For the first mode: $\beta_1 L \approx 1.875$
 
 ---
 
