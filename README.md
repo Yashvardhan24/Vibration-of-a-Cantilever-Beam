@@ -65,8 +65,8 @@ The Arduino reads real-time acceleration data, which is processed via **FFT** to
 
 ## 📈 Data Analysis
 
-- **FFT (Fast Fourier Transform)** converts the time-domain signal into the frequency domain.  
-- The **natural frequency** appears as a **dominant peak** in the amplitude–frequency plot.  
+- **FFT (Fast Fourier Transform)** converts the time-domain signal into the frequency domain.
+- The **natural frequency** appears as a **dominant peak** in the amplitude–frequency plot.
 - Damping is calculated from the amplitude decay curve using **logarithmic decrement**.
 
 Mathematical relation for fundamental frequency:
@@ -81,7 +81,7 @@ where
 - \( \rho \): Density  
 - \( A \): Cross-sectional Area  
 - \( L \): Beam Length  
-- \( \beta_1 L \approx 1.875 \) for the first mode  
+- For the first mode: \( \beta_1 L \approx 1.875 \)
 
 ---
 
